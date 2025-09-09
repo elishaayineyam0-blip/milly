@@ -1,0 +1,97 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #b6ae41;
+    color: #fff;
+    padding: 2em;
+    text-align: center;
+    position: sticky;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    font-style: bold;
+    display: inline-block;
+    margin-right:20px ;
+
+}
+nav span{
+    color: #000;
+    font-family: fantasy;
+    font-size: 30px;
+    
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+#home{
+    text-align: center;
+    padding: 2em;
+}
+#home img{
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+#about{
+    text-align: center;
+    padding: 2em;
+    font-size: 20px;
+
+}
+#about span{
+    font-size: 30px;
+    font-family: fantasy;
+}
+#products{
+     text-align: center;
+     justify-items: center;
+     padding: 2em;
+}
+.product-grid{
+    display: grid;
+}
+form{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+textarea{
+    height: 100px;
+}
+@media only screen and (max-width: 768px){
+    nav ul {
+        flex-direction: column;
+    }
+    nav li{
+        margin-right: 0;
+        margin-bottom: 10px;
+
+    }
+    section{
+        padding: 1em;
+    }
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.footer-section{
+
+}
+
